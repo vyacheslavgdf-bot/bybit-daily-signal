@@ -101,7 +101,7 @@ def main():
     schedule.every().day.at("00:05").do(scan_daily_signals)
 
     # Для теста — можно временно раскомментировать:
-    # scan_daily_signals()
+     scan_daily_signals()
 
     while True:
         schedule.run_pending()
