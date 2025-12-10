@@ -1,4 +1,4 @@
-requests
-pandas
-numpy
-schedule
+bybit-daily-signal/
+├── main.py
+├── requirements.txt
+└── .python-version
